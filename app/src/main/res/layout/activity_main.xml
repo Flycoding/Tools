@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1AFFFFFF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/shutdown"
+        android:gravity="center"
+        android:onClick="powerOff"
+        android:text="@string/power_off"
+        android:textColor="#f00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#ff0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/reboot"
+        android:gravity="center"
+        android:onClick="reboot"
+        android:text="Reboot"
+        android:textColor="#0f0"
+        android:textSize="20sp" />
+
+</LinearLayout>
